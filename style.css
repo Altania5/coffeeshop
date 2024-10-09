@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Choose your preferred font */
+    margin: 0;
+    background-color: #f5f0e1; /* Light, off-white background */
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #a87545; /* Coffee-brown link color */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation */
+  }
+  
+  nav li {
+    display: inline-block; /* Make list items display horizontally */
+    margin: 0 20px; 
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background-image: url("hero-image.jpg"); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  /* Featured Products Styling */
+  .featured-products {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .featured-products h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styling */
+  .about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
