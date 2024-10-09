@@ -1,0 +1,18 @@
+[
+    {
+      "name": "Latte",
+      "description": "A classic espresso drink with steamed milk.",
+      "price": "4.50"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "Espresso with a rich layer of foamed milk.",
+      "price": "4.25"
+    },
+    {
+      "name": "Shaken Espresso",
+      "description": "Espresso shaken in ice with you favorate flavored syrup and topped with milk of your choice.",
+      "price": "5.50"
+    }
+  ]
+  

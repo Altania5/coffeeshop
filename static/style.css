@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f5f0e1; /* Light, off-white background */
+  color: #333; 
+}
+
+/* Header Styling (add your header content) */
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* Hero Section Styling */
+.hero {
+  background-image: url("path/to/your/hero-image.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  /* Add styling for the hero content */
+}
+
+/* Featured Products Styling */
+.featured-products {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #a87545; /* Coffee-brown heading */
+}
+
+.drinks-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.drink {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.drink h3 {
+  color: #a87545;
+  margin-top: 0;
+}
+
+/* Footer Styling (add your footer content) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
